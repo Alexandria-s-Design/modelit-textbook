@@ -1,0 +1,253 @@
+/* Textbook Style Sheet - Connected: How Systems Shape Our World */
+
+:root {
+    --primary-blue: #0F6ACE;
+    --cyan-accent: #48d2fc;
+    --text-dark: #333333;
+    --text-light: #666666;
+    --bg-callout: #F0F8FF;
+    --bg-activity: #FFF9E6;
+    --bg-real-world: #F0FFF0;
+    --bg-key-concept: #FFF5E6;
+}
+
+@page {
+    size: Letter;
+    margin: 1in 0.75in;
+}
+
+body {
+    font-family: Georgia, Palatino, "Times New Roman", serif;
+    font-size: 14pt;
+    line-height: 1.6;
+    color: var(--text-dark);
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+/* Typography */
+h1 {
+    font-size: 42pt;
+    font-weight: bold;
+    color: var(--primary-blue);
+    margin-top: 24pt;
+    margin-bottom: 18pt;
+    page-break-after: avoid;
+}
+
+h2 {
+    font-size: 28pt;
+    font-weight: bold;
+    color: var(--text-dark);
+    margin-top: 24pt;
+    margin-bottom: 12pt;
+    page-break-after: avoid;
+}
+
+h3 {
+    font-size: 20pt;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-top: 18pt;
+    margin-bottom: 9pt;
+    page-break-after: avoid;
+}
+
+h4 {
+    font-size: 16pt;
+    font-weight: bold;
+    color: var(--text-dark);
+    margin-top: 12pt;
+    margin-bottom: 6pt;
+}
+
+p {
+    margin-bottom: 12pt;
+    text-align: justify;
+}
+
+/* Lists */
+ul, ol {
+    margin: 12pt 0;
+    padding-left: 24pt;
+}
+
+li {
+    margin-bottom: 6pt;
+}
+
+/* Special Elements */
+.callout {
+    background-color: var(--bg-callout);
+    border-left: 4px solid var(--primary-blue);
+    padding: 12pt;
+    margin: 18pt 0;
+    border-radius: 4px;
+    page-break-inside: avoid;
+}
+
+.callout strong {
+    color: var(--primary-blue);
+    display: block;
+    margin-bottom: 6pt;
+}
+
+.activity {
+    background-color: var(--bg-activity);
+    border: 1px solid #ddd;
+    padding: 12pt;
+    margin: 18pt 0;
+    border-radius: 4px;
+    page-break-inside: avoid;
+}
+
+.activity h3 {
+    margin-top: 0;
+    color: var(--primary-blue);
+}
+
+.real-world {
+    background-color: var(--bg-real-world);
+    border-left: 4px solid #4CAF50;
+    padding: 12pt;
+    margin: 18pt 0;
+    border-radius: 4px;
+    page-break-inside: avoid;
+}
+
+.key-concept {
+    background-color: var(--bg-key-concept);
+    border: 2px solid var(--primary-blue);
+    padding: 12pt;
+    margin: 18pt 0;
+    border-radius: 4px;
+    page-break-inside: avoid;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 12pt auto;
+    display: block;
+    page-break-inside: avoid;
+}
+
+figure {
+    margin: 18pt 0;
+    page-break-inside: avoid;
+}
+
+.caption {
+    font-size: 11pt;
+    font-style: italic;
+    color: var(--text-light);
+    text-align: center;
+    margin-top: 6pt;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 18pt 0;
+    page-break-inside: avoid;
+}
+
+th {
+    background-color: var(--primary-blue);
+    color: white;
+    padding: 8pt;
+    text-align: left;
+    font-weight: bold;
+}
+
+td {
+    padding: 8pt;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Key Terms */
+.key-terms {
+    margin: 24pt 0;
+    page-break-inside: avoid;
+}
+
+.key-terms dt {
+    font-weight: bold;
+    color: var(--primary-blue);
+    margin-top: 9pt;
+    margin-bottom: 3pt;
+}
+
+.key-terms dd {
+    margin-left: 18pt;
+    margin-bottom: 9pt;
+}
+
+/* Chapter Opener */
+.chapter-opener {
+    margin-bottom: 36pt;
+    page-break-after: always;
+}
+
+.chapter-overview {
+    margin: 18pt 0;
+}
+
+.learning-objectives {
+    margin: 18pt 0;
+}
+
+.learning-objectives ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.learning-objectives li {
+    padding-left: 24pt;
+    position: relative;
+}
+
+.learning-objectives li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary-blue);
+    font-weight: bold;
+}
+
+/* Review Questions */
+.review ol {
+    counter-reset: question;
+}
+
+.review li {
+    counter-increment: question;
+    position: relative;
+    padding-left: 30pt;
+}
+
+.review li:before {
+    content: counter(question) ".";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    color: var(--primary-blue);
+}
+
+/* Print Styles */
+@media print {
+    .page-break {
+        page-break-before: always;
+    }
+    
+    .no-break {
+        page-break-inside: avoid;
+    }
+}
