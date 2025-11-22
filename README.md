@@ -123,6 +123,8 @@ For questions about this textbook project, contact Alexandria's Design.
 
 ## 🔗 Related Resources
 
-- [Chapter Roadmap](ROADMAP.md)
-- [Contributing Guidelines](CONTRIBUTING.md)
-- [Style Guide](docs/STYLE_GUIDE.md) *(coming soon)*
+- [Strategic Plan](STRATEGIC_PLAN.md) - Complete plan to finish the textbook
+- [Chapter Roadmap](ROADMAP.md) - Detailed chapter planning
+- [Contributing Guidelines](CONTRIBUTING.md) - How to contribute
+- [Style Guide](docs/STYLE_GUIDE.md) - Formatting and style standards
+- [Implementation Checklist](IMPLEMENTATION_CHECKLIST.md) - Track progress
