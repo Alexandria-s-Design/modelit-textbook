@@ -1,0 +1,72 @@
+{
+  "title": "Connected: How Systems Shape Our World",
+  "publisher": "ModelIt K12",
+  "grades": "5-8",
+  "chapters": [
+    {
+      "number": 2,
+      "title": "Ecosystems as Systems",
+      "hook": "Imagine you're a detective investigating a mystery: why did all the rabbits in a meadow suddenly disappear? As you search for clues, you discover it's not just about rabbits—it's about hawks, grass, foxes, and even the weather. Welcome to the fascinating world of ecosystems!",
+      "sections": [
+        {
+          "title": "What is an Ecosystem?",
+          "content": "An <strong>ecosystem</strong> is a community of living things (like plants and animals) interacting with non-living things (like water, soil, and sunlight) in a specific area. Think of it as nature's version of a system!\n\n<h3>Components of an Ecosystem</h3>\n\n<strong>Biotic (Living) Components:</strong>\n<ul>\n  <li><strong>Producers:</strong> Plants that make their own food using sunlight (photosynthesis)</li>\n  <li><strong>Consumers:</strong> Animals that eat other organisms\n    <ul>\n      <li>Herbivores (plant-eaters like deer)</li>\n      <li>Carnivores (meat-eaters like wolves)</li>\n      <li>Omnivores (eat both, like bears)</li>\n    </ul>\n  </li>\n  <li><strong>Decomposers:</strong> Organisms that break down dead material (bacteria, fungi, worms)</li>\n</ul>\n\n<strong>Abiotic (Non-living) Components:</strong>\n<ul>\n  <li>Sunlight</li>\n  <li>Water</li>\n  <li>Soil</li>\n  <li>Air</li>\n  <li>Temperature</li>\n  <li>Rocks and minerals</li>\n</ul>\n\n<div class=\"highlight-box\">\n<strong>Think About It!</strong> In a forest ecosystem, trees are producers, deer are consumers, and mushrooms are decomposers. Each plays a vital role in keeping the forest healthy!\n</div>"
+        },
+        {
+          "title": "Energy Flow in Ecosystems",
+          "content": "Energy flows through ecosystems in one direction—from the sun to producers to consumers to decomposers.\n\n<h3>Food Chains</h3>\n\nA <strong>food chain</strong> shows how energy moves from one organism to another:\n\n<div style=\"text-align: center; margin: 20px 0; font-size: 16pt;\">\nSun → Grass → Grasshopper → Frog → Snake → Hawk\n</div>\n\n<h3>Food Webs</h3>\n\nReal ecosystems are more complex than simple chains. A <strong>food web</strong> shows multiple interconnected food chains. Most animals eat more than one thing!\n\n<div class=\"highlight-box\">\n<strong>Example:</strong> A hawk might eat:\n<ul>\n  <li>Snakes (which eat frogs, which eat grasshoppers)</li>\n  <li>Mice (which eat seeds)</li>\n  <li>Rabbits (which eat grass)</li>\n</ul>\nAll these connections form a food web!\n</div>\n\n<h3>Energy Pyramids</h3>\n\nNot all energy transfers from one level to the next. Only about 10% of energy moves up each level!\n\n<ul>\n  <li><strong>Bottom:</strong> Producers (most energy)</li>\n  <li><strong>Middle:</strong> Primary consumers (herbivores)</li>\n  <li><strong>Top:</strong> Secondary and tertiary consumers (carnivores)</li>\n</ul>\n\n<div class=\"vocabulary\">\n<strong class=\"vocabulary-term\">Trophic Level:</strong> Each step in a food chain or food web\n</div>"
+        },
+        {
+          "title": "Ecosystem Balance",
+          "content": "Ecosystems naturally balance themselves through interactions between organisms. When one part changes, it affects everything else!\n\n<h3>Predator-Prey Relationships</h3>\n\nPredators and prey populations rise and fall together:\n<ul>\n  <li>More prey → More food for predators → Predator population increases</li>\n  <li>More predators → More prey eaten → Prey population decreases</li>\n  <li>Less prey → Less food for predators → Predator population decreases</li>\n  <li>Fewer predators → Prey population recovers → Cycle repeats</li>\n</ul>\n\n<div class=\"highlight-box\">\n<strong>Real-World Example:</strong> In Yellowstone National Park, when wolves were removed in 1926, deer populations exploded. They overate plants, causing erosion. When wolves were reintroduced in 1995, the ecosystem began to balance again!\n</div>\n\n<h3>Symbiotic Relationships</h3>\n\nSometimes organisms have special relationships:\n\n<ul>\n  <li><strong>Mutualism:</strong> Both organisms benefit\n    <ul><li>Example: Bees get nectar from flowers; flowers get pollinated</li></ul>\n  </li>\n  <li><strong>Commensalism:</strong> One benefits, the other isn't affected\n    <ul><li>Example: Birds nest in trees; trees aren't helped or harmed</li></ul>\n  </li>\n  <li><strong>Parasitism:</strong> One benefits, the other is harmed\n    <ul><li>Example: Ticks feed on deer; deer lose blood</li></ul>\n  </li>\n</ul>"
+        },
+        {
+          "title": "Human Impact on Ecosystems",
+          "content": "Humans are part of ecosystems too—and we have a huge impact!\n\n<h3>Negative Impacts</h3>\n\n<ul>\n  <li><strong>Pollution:</strong> Chemicals in water and air harm organisms</li>\n  <li><strong>Habitat Destruction:</strong> Cutting down forests removes homes for animals</li>\n  <li><strong>Overharvesting:</strong> Taking too many fish or trees</li>\n  <li><strong>Invasive Species:</strong> Non-native species disrupting ecosystems</li>\n  <li><strong>Climate Change:</strong> Changing temperatures affect all organisms</li>\n</ul>\n\n<h3>Positive Impacts</h3>\n\nWe can help ecosystems too!\n\n<ul>\n  <li><strong>Conservation:</strong> Protecting natural areas</li>\n  <li><strong>Restoration:</strong> Replanting forests, cleaning rivers</li>\n  <li><strong>Sustainable Practices:</strong> Using resources wisely</li>\n  <li><strong>Reducing Pollution:</strong> Recycling, using clean energy</li>\n</ul>\n\n<div class=\"highlight-box\">\n<strong>You Can Make a Difference!</strong> Small actions like:\n<ul>\n  <li>Turning off lights to save energy</li>\n  <li>Recycling paper and plastic</li>\n  <li>Planting native plants</li>\n  <li>Reducing water waste</li>\n</ul>\nAll help protect ecosystems!\n</div>"
+        }
+      ],
+      "activities": [
+        {
+          "name": "Food Web Detective",
+          "objective": "Create and analyze a food web",
+          "materials": "Paper, colored pencils, string",
+          "time": "30 minutes",
+          "steps": [
+            "List 10-12 organisms from a local ecosystem (forest, pond, etc.)",
+            "Draw each organism",
+            "Draw arrows showing what eats what",
+            "Use different colors for producers, consumers, decomposers",
+            "Answer: What happens if one organism disappears?"
+          ]
+        },
+        {
+          "name": "Ecosystem in a Bottle",
+          "objective": "Create a closed ecosystem",
+          "materials": "Clear plastic bottle, soil, plants, water, small organisms (optional)",
+          "time": "45 minutes setup + 2 weeks observation",
+          "steps": [
+            "Add gravel, then soil to bottle bottom",
+            "Plant small plants (moss, grass)",
+            "Add water",
+            "Seal bottle tightly",
+            "Place in indirect sunlight",
+            "Observe daily for 2 weeks",
+            "Record changes in a science journal"
+          ]
+        }
+      ],
+      "vocabulary": {
+        "Ecosystem": "A community of living and non-living things interacting in an area",
+        "Biotic": "Living components of an ecosystem",
+        "Abiotic": "Non-living components of an ecosystem",
+        "Producer": "Organism that makes its own food (plants)",
+        "Consumer": "Organism that eats other organisms",
+        "Decomposer": "Organism that breaks down dead material",
+        "Food Chain": "Path of energy from one organism to another",
+        "Food Web": "Multiple interconnected food chains",
+        "Trophic Level": "Position in a food chain",
+        "Symbiosis": "Close relationship between two species"
+      }
+    }
+  ]
+}
