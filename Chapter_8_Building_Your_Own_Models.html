@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chapter 8: Building Your Own Models</title>
+    <style>
+        @page { size: letter; margin: 1in; }
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 14pt;
+            line-height: 1.6;
+            color: #333;
+            max-width: 8.5in;
+            margin: 0 auto;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 20px;
+        }
+        .cover-page {
+            text-align: center;
+            padding: 100px 20px;
+            min-height: 10in;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1 {
+            color: #0F6ACE;
+            font-size: 42pt;
+            font-weight: bold;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+        h2 {
+            color: #0F6ACE;
+            font-size: 28pt;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-left: 5px solid #48d2fc;
+            padding-left: 15px;
+        }
+        h3 {
+            color: #48d2fc;
+            font-size: 20pt;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .highlight-box {
+            background: #e8f4f8;
+            border-left: 4px solid #48d2fc;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .vocabulary {
+            background: #f0f9ff;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+        .vocabulary-term {
+            color: #0F6ACE;
+            font-weight: bold;
+        }
+        .activity-box {
+            background: #fff9e6;
+            border: 2px solid #ffd700;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        ul, ol { margin: 15px 0; padding-left: 30px; }
+        li { margin: 8px 0; }
+        .page-break { page-break-before: always; }
+    </style>
+</head>
+<body>
+
+<div class="cover-page">
+    <h1>CONNECTED</h1>
+    <div style="height: 3px; background: #48d2fc; width: 200px; margin: 20px auto;"></div>
+    <div style="color: #48d2fc; font-size: 28pt; margin: 20px 0;">How Systems<br>Shape Our<br>World</div>
+    <h2 style="border: none; padding: 0; margin-top: 60px;">Chapter 8:</h2>
+    <h2 style="border: none; padding: 0;">Building Your Own Models</h2>
+    <p style="font-size: 18pt; color: #48d2fc; margin-top: 40px;">A Middle School Science Textbook (Grades 5-8)</p>
+</div>
+
+<div class="page-break"></div>
+
+<div style="text-align: center; padding: 60px 20px;">
+    <h1>ModelIt!</h1>
+    <p style="font-size: 16pt; color: #666; font-style: italic;">Students exploring systems through hands-on science</p>
+</div>
+
+<div class="page-break"></div>
+
+<h1 style="text-align: center;">Chapter 8: Building Your Own Models</h1>
+
+<div style="background: #e8f5e9; padding: 15px; margin: 20px 0; border-radius: 8px; text-align: center;">
+<strong>NGSS Standards:</strong> (No specific NGSS - this is a modeling skills chapter)
+</div>
+
+<div class="section">
+    <h2>Opening Hook</h2>
+    <p>Scientists don't just run simulations—they BUILD them. Every model you have explored was designed by someone who asked: "How does this system work?" Now it's your turn to be the model builder.</p>
+</div>
+
+<div class="section">
+    <h2>The Design Process</h2>
+    Building a scientific model is a creative process that requires careful planning. Before you ever touch a computer, you need to understand what you are trying to represent.
+    
+    <h3>Defining the Question</h3>
+    Every good model starts with a question. A clear question helps you decide what is important to include and what can be left out.
+    
+    <ul>
+        <li><strong>Too broad:</strong> "How does an ecosystem work?"</li>
+        <li><strong>Just right:</strong> "How does the number of wolves affect the deer population?"</li>
+    </ul>
+
+    <h3>Sketching Relationships</h3>
+    Once you have your question, grab a piece of paper and sketch it out. Draw circles for the main parts and lines connecting them. This "concept map" is the blueprint for your model.
+    
+    <div class="highlight-box">
+    <strong>Design Tip: Start Simple!</strong>
+    Don't try to include everything in the world. Start with the most important parts. You can always add more detail later. This is called <strong>abstraction</strong>—focusing only on the relevant details.
+    </div>
+</div>
+
+<div class="section">
+    <h2>Identifying Components</h2>
+    The parts that make up your system are called <strong>components</strong>.
+    
+    <div class="vocabulary">
+    <strong class="vocabulary-term">Component:</strong> A distinct part or element of a larger system. In a computer model, these are often the "nodes" or "agents."
+    </div>
+
+    When listing your components, try to categorize them:
+    <ul>
+        <li><strong>Living things:</strong> Animals, plants, bacteria</li>
+        <li><strong>Non-living resources:</strong> Water, sunlight, nutrients</li>
+        <li><strong>States or Conditions:</strong> Temperature, pH, infection status (healthy vs. sick)</li>
+    </ul>
+
+    <div class="vocabulary">
+    <strong class="vocabulary-term">Variable:</strong> A component or factor that can change or vary over time.
+    </div>
+</div>
+
+<div class="section">
+    <h2>Creating Relationships and Interactions</h2>
+    Components in a system don't just sit there; they affect each other. These connections are called <strong>interactions</strong> or <strong>relationships</strong>.
+
+    <div class="vocabulary">
+    <strong class="vocabulary-term">Interaction:</strong> The action or influence of people, groups, or things on one another.
+    </div>
+
+    <div class="vocabulary">
+    <strong class="vocabulary-term">Relationship:</strong> The way in which two or more concepts, objects, or people are connected.
+    </div>
+
+    When drawing connections (usually with arrows), ask yourself:
+    <ul>
+        <li>Does A increase B? (Positive relationship)</li>
+        <li>Does A decrease B? (Negative relationship)</li>
+        <li>Is the relationship one-way or two-way?</li>
+    </ul>
+    
+    <div class="highlight-box">
+    <strong>Common Mistake to Avoid:</strong>
+    Don't confuse "eating" with "energy flow." If a wolf eats a rabbit, the rabbit population goes DOWN, but the wolf's energy goes UP. Make sure your model arrows represent the correct flow of influence!
+    </div>
+</div>
+
+<div class="section">
+    <h2>Adding Regulatory Elements</h2>
+    Systems are rarely simple straight lines. They have loops and switches that control them. This is called <strong>regulation</strong>.
+
+    <div class="vocabulary">
+    <strong class="vocabulary-term">Regulation:</strong> The control or maintenance of a process or rate.
+    </div>
+
+    <h3>Feedback Loops</h3>
+    
+    <div class="vocabulary">
+    <strong class="vocabulary-term">Positive Feedback:</strong> A process that amplifies or increases change (e.g., population explosion).
+    </div>
+
+    <div class="vocabulary">
+    <strong class="vocabulary-term">Negative Feedback:</strong> A process that counteracts change and maintains stability (e.g., a thermostat maintaining temperature).
+    </div>
+
+    <h3>Thresholds and Switches</h3>
+    Sometimes a relationship only happens if a certain condition is met. For example, a fire might only start if the temperature is above a certain <strong>threshold</strong>.
+
+    <div class="highlight-box">
+    <strong>Think Like a Scientist:</strong>
+    Nature is full of negative feedback loops that keep things balanced (homeostasis). If your model crashes or explodes to infinity instantly, you might be missing a negative feedback loop!
+    </div>
+</div>
+
+<div class="section">
+    <h2>Testing and Refining Your Model</h2>
+    Once you've built your model, you need to see if it works. This process is called <strong>validation</strong>.
+
+    <div class="vocabulary">
+    <strong class="vocabulary-term">Validation:</strong> The process of checking if a model accurately represents the real system.
+    </div>
+
+    <h3>Running Simulations</h3>
+    Run your simulation and watch what happens.
+    <ul>
+        <li>Does the behavior match your expectations?</li>
+        <li>Does it match data from the real world?</li>
+        <li>If you change a variable, does the outcome make sense?</li>
+    </ul>
+
+    <div class="vocabulary">
+    <strong class="vocabulary-term">Hypothesis:</strong> A proposed explanation made on the basis of limited evidence as a starting point for further investigation. Your model is a way to test a hypothesis!
+    </div>
+
+    <h3>Iterating</h3>
+    Your first model will almost never be perfect. That's okay! Science is about <strong>iteration</strong>.
+
+    <div class="vocabulary">
+    <strong class="vocabulary-term">Iteration:</strong> The process of repeating steps to refine and improve a design or model.
+    </div>
+
+    If your model doesn't work, go back to the design process. Did you miss a component? Is a relationship backwards? Make changes and test again.
+</div>
+
+<div class="section">
+    <h2>Sharing Your Work with the Class</h2>
+    Science is a collaborative effort. Once you have a working model, you need to communicate your findings.
+
+    <h3>Peer Review</h3>
+    Show your model to a classmate. Can they understand it without you explaining every step?
+    <ul>
+        <li>Explain your question and hypothesis.</li>
+        <li>Walk them through your components and relationships.</li>
+        <li>Show a simulation run and explain the results.</li>
+    </ul>
+    
+    <div class="highlight-box">
+    <strong>Communication Tip:</strong>
+    Use clear labels and colors. A messy model is hard to understand. Group related components together to make it easier to read.
+    </div>
+</div>
+
+<div class="page-break"></div>
+<div class="section">
+    <h2>Vocabulary</h2>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Component:</strong> A distinct part or element of a larger system
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Interaction:</strong> The action or influence of people, groups, or things on one another
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Relationship:</strong> The way in which two or more concepts, objects, or people are connected
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Positive Feedback:</strong> A loop that amplifies change, moving a system away from equilibrium
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Negative Feedback:</strong> A loop that counteracts change, helping to maintain stability
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Regulation:</strong> The control or maintenance of a rate or process
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Validation:</strong> Checking if a model accurately represents the real world
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Iteration:</strong> Repeating a process to improve the result
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Hypothesis:</strong> A testable prediction or explanation
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Variable:</strong> A factor that can change in an experiment or model
+    </div>
+</div>
+<div class="page-break"></div>
+<h1 style="text-align: center;">HANDS-ON ACTIVITIES</h1>
+
+<div class="activity-box">
+    <h3>Activity 1: Model a Simple Feedback Loop</h3>
+    <p><strong>Learning Objective:</strong> Understand how negative feedback maintains balance.</p>
+    <p><strong>Materials:</strong> Cell Collective or paper/pencil</p>
+    <p><strong>Time Required:</strong> 20 minutes</p>
+    <h4>Steps:</h4>
+    <ol>
+        <li>Identify your goal: Maintain a comfortable room temperature (e.g., 70°F).</li>
+        <li><strong>Components:</strong> Room Temperature, Heater, Thermostat Setting.</li>
+        <li><strong>Relationships:</strong>
+            <ul>
+                <li>Heater ON increases Room Temperature.</li>
+                <li>Room Temperature > Thermostat Setting turns Heater OFF.</li>
+                <li>Room Temperature < Thermostat Setting turns Heater ON.</li>
+            </ul>
+        </li>
+        <li>Build this logic into your model.</li>
+        <li>Run the simulation. Does the temperature stabilize or fluctuate wildly?</li>
+        <li>Challenge: Add "Outside Cold Air" that constantly lowers the Room Temperature. How does the system respond?</li>
+    </ol>
+</div>
+
+<div class="activity-box">
+    <h3>Activity 2: Create an Ecosystem Model</h3>
+    <p><strong>Learning Objective:</strong> Model trophic interactions and population dynamics.</p>
+    <p><strong>Materials:</strong> Cell Collective</p>
+    <p><strong>Time Required:</strong> 40 minutes</p>
+    <h4>Steps:</h4>
+    <ol>
+        <li>Choose 3-4 species (e.g., Grass, Rabbit, Fox).</li>
+        <li><strong>Components:</strong> Add a node for each species.</li>
+        <li><strong>Interactions:</strong> Draw arrows to show who eats whom.
+            <ul>
+                <li>Grass increases Rabbit population.</li>
+                <li>Rabbit increases Fox population.</li>
+                <li>Rabbit decreases Grass quantity.</li>
+                <li>Fox decreases Rabbit population.</li>
+            </ul>
+        </li>
+        <li>Add a resource limit for the grass (e.g., Sun/Rain).</li>
+        <li>Run the simulation. Can you get all three species to survive together?</li>
+        <li>What happens if you remove the Foxes?</li>
+    </ol>
+</div>
+
+<div class="activity-box">
+    <h3>Activity 3: Build a Disease Spread Model</h3>
+    <p><strong>Learning Objective:</strong> Simulate how infection spreads through a population.</p>
+    <p><strong>Materials:</strong> Cell Collective</p>
+    <p><strong>Time Required:</strong> 40 minutes</p>
+    <h4>Steps:</h4>
+    <ol>
+        <li><strong>Components:</strong> Healthy People, Infected People, Recovered People.</li>
+        <li><strong>Relationships:</strong>
+            <ul>
+                <li>Healthy People + Infected People -> More Infected People (Transmission).</li>
+                <li>Infected People -> Recovered People (Recovery over time).</li>
+            </ul>
+        </li>
+        <li>Set initial values: Start with 99 Healthy and 1 Infected.</li>
+        <li>Run the simulation. Watch the curve of infection.</li>
+        <li><strong>Experiment:</strong> Add a "Social Distancing" switch that reduces the transmission rate. How does this flatten the curve?</li>
+    </ol>
+</div>
+
+</body>
+</html>
