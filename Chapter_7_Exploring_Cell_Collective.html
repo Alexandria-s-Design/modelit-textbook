@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chapter 7: Exploring Cell Collective</title>
+    <style>
+        @page { size: letter; margin: 1in; }
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 14pt;
+            line-height: 1.6;
+            color: #333;
+            max-width: 8.5in;
+            margin: 0 auto;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 20px;
+        }
+        .cover-page {
+            text-align: center;
+            padding: 100px 20px;
+            min-height: 10in;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1 {
+            color: #0F6ACE;
+            font-size: 42pt;
+            font-weight: bold;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+        h2 {
+            color: #0F6ACE;
+            font-size: 28pt;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-left: 5px solid #48d2fc;
+            padding-left: 15px;
+        }
+        h3 {
+            color: #48d2fc;
+            font-size: 20pt;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .highlight-box {
+            background: #e8f4f8;
+            border-left: 4px solid #48d2fc;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .vocabulary {
+            background: #f0f9ff;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+        .vocabulary-term {
+            color: #0F6ACE;
+            font-weight: bold;
+        }
+        .activity-box {
+            background: #fff9e6;
+            border: 2px solid #ffd700;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        ul, ol { margin: 15px 0; padding-left: 30px; }
+        li { margin: 8px 0; }
+        .page-break { page-break-before: always; }
+    </style>
+</head>
+<body>
+
+<div class="cover-page">
+    <h1>CONNECTED</h1>
+    <div style="height: 3px; background: #48d2fc; width: 200px; margin: 20px auto;"></div>
+    <div style="color: #48d2fc; font-size: 28pt; margin: 20px 0;">How Systems<br>Shape Our<br>World</div>
+    <h2 style="border: none; padding: 0; margin-top: 60px;">Chapter 7:</h2>
+    <h2 style="border: none; padding: 0;">Exploring Cell Collective</h2>
+    <p style="font-size: 18pt; color: #48d2fc; margin-top: 40px;">A Middle School Science Textbook (Grades 5-8)</p>
+</div>
+
+<div class="page-break"></div>
+
+<div style="text-align: center; padding: 60px 20px;">
+    <h1>ModelIt!</h1>
+    <p style="font-size: 16pt; color: #666; font-style: italic;">Students exploring systems through hands-on science</p>
+</div>
+
+<div class="page-break"></div>
+
+<h1 style="text-align: center;">Chapter 7: Exploring Cell Collective</h1>
+
+<div style="background: #e8f5e9; padding: 15px; margin: 20px 0; border-radius: 8px; text-align: center;">
+<strong>NGSS Standards:</strong> (No specific NGSS - this is a platform tutorial chapter)
+</div>
+
+<div class="section">
+    <h2>Opening Hook</h2>
+    <p>What if you could see inside a living cell and change things to see what happens? What if you could speed up time to watch diseases spread or ecosystems collapse? With Cell Collective, you can do all of this—and more.</p>
+</div>
+
+<div class="section">
+    <h2>What is Cell Collective?</h2>
+    Cell Collective is a powerful, web-based platform for creating and exploring <strong>computational models</strong> of biological systems. It's used by scientists to research diseases and by students like you to learn how systems work!
+
+    <h3>More Than Just Pictures</h3>
+    Unlike a static diagram in a book, Cell Collective models are <strong>dynamic systems</strong>. This means they can change over time based on the rules you set.
+
+    <div class="vocabulary">
+        A <strong>model</strong> is a simplified representation of a real-world system. A <strong>simulation</strong> is running that model over time to see what happens.
+    </div>
+
+    <div class="highlight-box">
+        <strong>Why This Matters:</strong>
+        Real biological systems are complex and often invisible to the naked eye. Cell Collective makes the invisible visible and lets you "experiment" without needing a million-dollar lab!
+    </div>
+</div>
+
+<div class="section">
+    <h2>Why Use Computational Models?</h2>
+    Scientists use models to test ideas before doing expensive or dangerous experiments. This is a key part of the modern scientific method.
+
+    <h3>Benefits of Simulation</h3>
+    <ul>
+        <li><strong>Speed:</strong> Run experiments in seconds that would take years in real life.</li>
+        <li><strong>Safety:</strong> Test dangerous scenarios (like a virus outbreak) without hurting anyone.</li>
+        <li><strong>Cost:</strong> Run thousands of tests for free.</li>
+        <li><strong>Understanding:</strong> Change one <strong>variable</strong> at a time to see exactly what it does.</li>
+    </ul>
+
+    <div class="vocabulary">
+        A <strong>variable</strong> is any factor in an experiment that can be changed or measured. In Cell Collective, nodes in your model are variables.
+    </div>
+</div>
+
+<div class="section">
+    <h2>Navigating the Platform</h2>
+    Getting started is easy. The platform is designed to be intuitive, but knowing the layout helps.
+
+    <h3>Key Areas</h3>
+    <ul>
+        <li><strong>Dashboard:</strong> Your home base. Here you can see models you've created or saved.</li>
+        <li><strong>Model Library:</strong> A collection of pre-built models made by scientists and other users.</li>
+        <li><strong>Model Editor:</strong> The workspace where you build and change the structure of your model.</li>
+        <li><strong>Simulation Window:</strong> The screen where you run experiments and see graphs.</li>
+    </ul>
+
+    <div class="highlight-box">
+        <strong>Tip:</strong> Always save your work! Although Cell Collective often auto-saves, it's good practice to click "Save" before leaving a page.
+    </div>
+</div>
+
+<div class="section">
+    <h2>Exploring Pre-Built Models</h2>
+    You don't have to start from scratch. There are hundreds of existing models to explore!
+
+    <h3>Finding a Model</h3>
+    1. Go to the "Browse" or "Explore" section.
+    2. Use filters to search by category (e.g., "Cell Biology," "Ecology," "Human Body").
+    3. Click on a model card to see details.
+
+    <h3>Understanding Model Components</h3>
+    Every model is made of <strong>components</strong> (also called nodes) and connections.
+    <ul>
+        <li><strong>Components:</strong> The parts of the system (e.g., Glucose, Insulin, Lion, Zebra).</li>
+        <li><strong>Connections:</strong> Arrows showing how one part affects another.</li>
+        <li><strong>State:</strong> The current condition of a component (e.g., Active/Inactive, High/Low).</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Running Your First Simulation</h2>
+    This is where the magic happens! Once you've opened a model, you can run a simulation to see it in action.
+
+    <h3>Steps to Simulate</h3>
+    <ol>
+        <li><strong>Set Initial Conditions:</strong> Decide which components start as "Active" (ON) or "Inactive" (OFF). These are your starting <strong>parameters</strong>.</li>
+        <li><strong>Press Play:</strong> Start the simulation. You'll see the system change over time steps.</li>
+        <li><strong>Adjust Real-Time:</strong> You can click on components to turn them ON or OFF while the simulation is running!</li>
+    </ol>
+
+    <div class="vocabulary">
+        A <strong>Boolean</strong> variable is one that has only two states: True/False, On/Off, or 1/0. Many simple models use Boolean logic.
+    </div>
+
+    <div class="highlight-box">
+        <strong>Try This:</strong> Find a switch or slider in the simulation panel. Move it and watch how the graph changes instantly. This is cause-and-effect in action!
+    </div>
+</div>
+
+<div class="section">
+    <h2>Interpreting Results</h2>
+    The simulation produces a graph or a visual animation. Learning to read this output is crucial.
+
+    <h3>Reading the Graph</h3>
+    <ul>
+        <li><strong>X-Axis:</strong> Represents Time steps.</li>
+        <li><strong>Y-Axis:</strong> Represents the activity level or amount of the component.</li>
+        <li><strong>Lines:</strong> Each colored line represents a different component in your model.</li>
+    </ul>
+
+    <h3>Common Patterns</h3>
+    <ul>
+        <li><strong>Steady State:</strong> The lines flatten out and stop changing. The system has reached balance.</li>
+        <li><strong>Oscillation:</strong> The lines go up and down in a repeating pattern. This often happens in predator-prey models or sleep cycles.</li>
+        <li><strong>Threshold:</strong> A sudden jump or drop after a certain point is reached.</li>
+    </ul>
+
+    <div class="vocabulary">
+        <strong>Feedback</strong> occurs when the output of a system circles back and becomes an input. Positive feedback amplifies change; negative feedback reduces it.
+    </div>
+</div>
+
+<div class="page-break"></div>
+<div class="section">
+    <h2>Vocabulary</h2>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Model:</strong> A simplified representation of a real-world system or process
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Simulation:</strong> The process of running a model over time to observe its behavior
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Variable:</strong> A factor that can change in an experiment or model
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Parameter:</strong> A constant or setting that defines the conditions of a model
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Boolean:</strong> A data type with only two possible values: true or false (on/off)
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Threshold:</strong> A limit or point that must be exceeded for a certain reaction or change to occur
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Dynamic System:</strong> A system that changes and evolves over time
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Component:</strong> An individual part or element of a larger system (also called a node)
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">State:</strong> The condition of a component at a specific point in time (e.g., Active or Inactive)
+    </div>
+
+    <div class="vocabulary">
+        <strong class="vocabulary-term">Feedback:</strong> A process where the output of a system influences its own future input
+    </div>
+</div>
+
+<div class="page-break"></div>
+<h1 style="text-align: center;">HANDS-ON ACTIVITIES</h1>
+
+<div class="activity-box">
+    <h3>Activity 1: Create Your Student Account</h3>
+    <p><strong>Learning Objective:</strong> Set up access to the Cell Collective platform</p>
+    <p><strong>Materials:</strong> Computer with internet access, email address</p>
+    <p><strong>Time Required:</strong> 10 minutes</p>
+    <h4>Steps:</h4>
+    <ol>
+        <li>Go to the Cell Collective website (cellcollective.org).</li>
+        <li>Click "Sign Up" or "Create Account."</li>
+        <li>Select "Student" or "Academic" account type if prompted.</li>
+        <li>Enter your details and create a secure password.</li>
+        <li>Check your email for a verification link and click it.</li>
+        <li>Log in to verify your dashboard is working.</li>
+        <li><strong>Success Check:</strong> You should see a "Welcome" screen or an empty dashboard ready for models!</li>
+    </ol>
+</div>
+
+<div class="activity-box">
+    <h3>Activity 2: Explore the Simple Cell Model</h3>
+    <p><strong>Learning Objective:</strong> Navigate the interface and identify model components</p>
+    <p><strong>Materials:</strong> Computer, Cell Collective account</p>
+    <p><strong>Time Required:</strong> 15 minutes</p>
+    <h4>Steps:</h4>
+    <ol>
+        <li>In the Model Library, search for "Simple Cell" or "Intro to Cells."</li>
+        <li>Open the model.</li>
+        <li>Locate the <strong>Model Editor</strong> tab (usually looks like a network map).</li>
+        <li>Hover over different circles (nodes). What do they represent? (e.g., Nucleus, Mitochondria).</li>
+        <li>Click on a connection arrow. Does it have a "+" (positive) or "-" (negative) sign?</li>
+        <li>Identify at least 3 components and write down what they are connected to.</li>
+    </ol>
+</div>
+
+<div class="activity-box">
+    <h3>Activity 3: Run a Glucose Metabolism Simulation</h3>
+    <p><strong>Learning Objective:</strong> Manipulate variables and observe system response</p>
+    <p><strong>Materials:</strong> Computer, "Glucose Metabolism" or similar model</p>
+    <p><strong>Time Required:</strong> 20 minutes</p>
+    <h4>Steps:</h4>
+    <ol>
+        <li>Open the simulation window for the model.</li>
+        <li>Find the "Glucose" input switch (or slider).</li>
+        <li>Set Glucose to "OFF" (0). Run the simulation for 10 steps. What happens to ATP?</li>
+        <li>Now, switch Glucose to "ON" (1 or High). Continue the simulation.</li>
+        <li>Observe the graph. Does ATP go up instantly or gradually?</li>
+        <li>Try turning Oxygen OFF while Glucose is ON. Does the energy production change?</li>
+        <li><strong>Conclusion:</strong> Write one sentence describing the relationship between Glucose and ATP based on your graph.</li>
+    </ol>
+</div>
+
+</body>
+</html>
